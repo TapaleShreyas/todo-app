@@ -70,7 +70,7 @@ type Response struct {
 <li>Status:  <code>true</code>  or  <code>false</code></li>
 </ol>
 <p>The type of id in MongoDB is  <code>Object(id)</code>.</p>
-<p>In the <code>Response</code> we have only one field <code>Message</code>, We are sending this response incase of absense of records.</p>
+<p>In the <code>Response</code> we have only one field <code>Message</code>, We are sending this response when we want to return any message.</p>
 <p><strong>Middleware</strong><br>
 Create a new folder <code>middleware</code> in the <code>go-server</code> directory and create a new file <code>middleware.go</code>. This file will contain the following functions,</p>
 <ol>
